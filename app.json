@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "25587869",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "be4ae8dc41f4d81f970cbf88b9f3a36b",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,27 +30,27 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6187521001:AAHCtI-7kxBtUtps6JhDzar_fnV1mSy28l8",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
+        "value": "mongodb+srv://Bhojpuriya:bhojpuriya@cluster0.osrvhzy.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
+        "value": "Myra Music",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "1892884368",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQCqaIvxfQ7sU07rrku586EKs2ViVKlO7qbLTArkNtPgfDAl1uyB8Q2giFwfI5p30aMJUCSGIqnPRK4MGqcEXUsLl5jEWcXfQSijKdkz55veR4BQI6TIDwUcLWQOS9VEqyIAWQ0WwZ9spyzh2iP1VjUIyiwdSp2U5S_nTLFNMBus7IbTOmgKFniBj0qbEMQ0JPLntGXAj30nHqcj3xJMjnfEsxjKeZ6x5QklaqLmEctuMYMKkPOz6rc9ijWoOvlOvMGQiJh_iF2OCCib6KZhlz02yW9dyy00d97PBvtdGMGW9QCM6o_DkTyX3TNl4MRG-FpJM4fU4VIM-4K8KVZZzQHLAAAAAWeRI-EA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -65,12 +65,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
+        "value": "-1001601579934",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "value": "https://t.me/full_masti_chatting_group",
         "required": true
       },
       "UPSTREAM_BRANCH": {
@@ -93,7 +93,7 @@
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "free"
+              "size": "Eco"
           }
       }
   }
